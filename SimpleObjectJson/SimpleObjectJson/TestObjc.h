@@ -28,6 +28,7 @@
 @property (nonatomic, assign) int modeOnSilentMode;
 @property (nonatomic, assign) int vibrationType;
 @property (nonatomic, assign) int modeOnCalling;
+@property (nonatomic, retain) NSArray<ObjArea> *my_area;
 
 @end
 
@@ -35,6 +36,7 @@
 @property (nonatomic, retain) NSString *setting;
 @property (nonatomic, retain) NSString *id;
 @property (nonatomic, retain) NSString *label;
+@property (nonatomic, retain) NSArray* string_ar;
 @end
 
 
