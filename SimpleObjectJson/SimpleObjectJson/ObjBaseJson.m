@@ -61,7 +61,7 @@
 }
 
 #pragma mark - create dictionary from object
-//2 cách chạy như nhau
+//2 ways sample
 - (NSDictionary *) dictionaryWithPropertiesOfObject:(id)obj
 {
     NSMutableDictionary *dict = [NSMutableDictionary dictionary];
